@@ -1,7 +1,60 @@
-body{
+html, body{
     font-family: 'poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar{
     width: 100%;
+}
+
+.nav-item{
+    font-size: large;
+}
+
+.nav-link{
+    position: relative;
+}
+
+.nav-link:hover{
+    color: red !important;
+    /*text-decoration: underline;*/
+    /*border-bottom: 2px solid red;*/
+}
+
+.nav-link::after{
+    content: '';
+    opacity: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    height: 2px;
+    width: 100%;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.nav-link:hover::after{
+    opacity: 1;
     
+}
+
+h4 {
+    font-weight: 700;
+    font-family: monospace;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+.carousel{
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 5%;
 }
 
 
@@ -68,12 +121,6 @@ body{
 }
 
 
-.foot {
-    background-color: rgb(255, 0, 0);
-
-}
-
-
 .footlist {
     margin-left: 5rem;
     font-size: 20px;
@@ -117,6 +164,12 @@ body{
 }
 
 
+footer{
+    background-color: rgb(255, 0, 0);
+    padding: 20px 0;
+    font-family: cursive;
+    font-size: medium;
+}
 
 @media screen and (max-width : 1116px) {
     .bgprofile{
@@ -144,7 +197,9 @@ body{
 @media screen and (max-width : 426px) {
 
     .carousel{
-        margin-top: 15%;
+        padding-top: 7%;
+        margin-left: 12%;
+        width: 80%;
     }
 
     .secvid {
@@ -210,8 +265,82 @@ body{
     }
 }
 
-@media screen and (max-width : 1115px) {
+@media screen and (max-width : 375px) {
+
+    .carousel{
+        margin-top: 15%;
+        width: 80%;
+    }
+
+    .secvid {
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 34%;
+        
+    }
+
+    .text-office {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    .maps {
+        margin-left: 7%;
+    }
+
+    .logofoot {
+        width: 80%;
+        height: 5em;
+    }
+
+    .row{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+    }
+    .footcontactinfo{
+        margin-left: 5rem;
+    }
+
+    .footer{
+        width: 100%;
+    }
+
     
+    .kartuprodukall {
+        width: 90%;
+        display: flex;
+        margin-left: 1em;
+    }
+
+    .kartuproduk1 {
+        margin-left: 0%;
+    }
+
+    .kartuproduk3 {
+        margin-left: 1%;
+    }
+
+    .kartuproduk5 {
+        margin-left: 1%;
+    }
+
+    .card-keuntungan {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0%;  
+        margin-right: 5%; 
+    }
+
+    .cardkeuntungan1 {
+        margin-left: 0%;
+    }
 }
 
 @media screen and (max-width : 1115px) {
