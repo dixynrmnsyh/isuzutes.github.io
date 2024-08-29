@@ -187,11 +187,6 @@ footer{
     font-family: monospace;
 }
 
-.logofoot{
-    width: 550px;
-    height: 150px;
-}
-
 @media screen and (max-width : 1116px) {
     .bgprofile{
         margin-left: 5.5rem;
@@ -302,10 +297,6 @@ footer{
     font-size: 12px;
 }
 
-.logofoot {
-    width: 80%;
-    height: 5em;
-}
 
 @media screen and (max-width : 375px) {
 
@@ -336,10 +327,6 @@ footer{
         margin-left: 7%;
     }
 
-    .logofoot {
-        width: 80%;
-        height: 5em;
-    }
 
     .row{
         display: flex; 
@@ -418,9 +405,5 @@ footer{
 
     .footlist{
         margin-left: 20%;
-    }
-
-    .logofoot{
-        height: 70px;
     }
 }
