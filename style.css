@@ -171,6 +171,11 @@ footer{
     font-size: large;
 }
 
+.Mapsfoot{
+    width: 350px;
+    height: 180px;
+}
+
 .textofficefoot{
     margin-top: 1rem;
     font-size: 20px;
@@ -180,11 +185,11 @@ footer{
     margin-top: 2rem;
     font-size: 15px;
     font-family: monospace;
+}
 
 .logofoot{
     width: 550px;
     height: 150px;
-}
 }
 
 @media screen and (max-width : 1116px) {
@@ -239,10 +244,6 @@ footer{
         margin-left: 13%;
     }
 
-    .logofoot {
-        width: 80%;
-        height: 5em;
-    }
 
     .row{
         display: flex; 
@@ -251,10 +252,6 @@ footer{
     }
     .footcontactinfo{
         margin-left: 5rem;
-    }
-
-    .footer{
-        width: 100%;
     }
 
     
@@ -289,12 +286,25 @@ footer{
     }
 }
 
+.footer{
+    width: 100%;
+}
+
+.Mapsfoot{
+    padding-left: 15%;
+}
+
 .textofficefoot{
     font-size: 15px;
 }
 
 .textcopyrightfoot{
     font-size: 12px;
+}
+
+.logofoot {
+    width: 80%;
+    height: 5em;
 }
 
 @media screen and (max-width : 375px) {
