@@ -171,6 +171,22 @@ footer{
     font-size: large;
 }
 
+.textofficefoot{
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+.textcopyrightfoot{
+    margin-top: 2rem;
+    font-size: 15px;
+    font-family: monospace;
+
+.logofoot{
+    width: 550px;
+    height: 150px;
+}
+}
+
 @media screen and (max-width : 1116px) {
     .bgprofile{
         margin-left: 5.5rem;
@@ -187,17 +203,16 @@ footer{
 
     .maps{
         margin-inline-start: 5rem;
-        
         width: 300px;  
         
     }
 
 }
 
-@media screen and (max-width : 425px) {
+@media screen and (max-width : 426px) {
 
     .carousel{
-        padding-top: 7%;
+        padding-top: 17%;
         margin-left: 12%;
         width: 80%;
     }
@@ -253,6 +268,15 @@ footer{
         margin-left: 0%;
     }
 
+    
+    .kartuproduk3 {
+        margin-left: 1%;
+    }
+
+    .kartuproduk5 {
+        margin-left: 1%;
+    }
+
     .card-keuntungan {
         display: flex;
         flex-wrap: wrap;
@@ -265,10 +289,18 @@ footer{
     }
 }
 
+.textofficefoot{
+    font-size: 15px;
+}
+
+.textcopyrightfoot{
+    font-size: 12px;
+}
+
 @media screen and (max-width : 375px) {
 
     .carousel{
-        margin-top: 15%;
+        margin-top: 7%;
         width: 80%;
     }
 
@@ -304,14 +336,6 @@ footer{
         justify-content: center;
         align-items: center;
     }
-    .footcontactinfo{
-        margin-left: 5rem;
-    }
-
-    .footer{
-        width: 100%;
-    }
-
     
     .kartuprodukall {
         width: 90%;
@@ -341,8 +365,52 @@ footer{
     .cardkeuntungan1 {
         margin-left: 0%;
     }
+
+    .footer{
+        width: 100%;
+    }
+
+    .footcontactinfo{
+        margin-left: 13%;
+    }
+    .textofficefoot{
+        font-size: 14px;
+    }
+
+    .textcopyrightfoot{
+        font-size: 11px;
+    }
 }
 
-@media screen and (max-width : 1115px) {
+@media screen and (max-width : 320px) {
     
+    .bgprofile{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .maps{
+        width: 85%;
+    }
+
+    .card-keuntungan h4{
+        font-size: 20px;
+    }
+
+    .card-keuntungan p{
+        font-size: 15px;
+    }
+
+    .footcontactinfo{
+        font-size: 14px;
+        margin-left: 2rem;
+    }
+
+    .footlist{
+        margin-left: 20%;
+    }
+
+    .logofoot{
+        height: 70px;
+    }
 }
