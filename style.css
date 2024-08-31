@@ -176,6 +176,7 @@ footer{
     height: 180px;
 }
 
+
 .textofficefoot{
     margin-top: 1rem;
     font-size: 20px;
@@ -285,9 +286,6 @@ footer{
     width: 100%;
 }
 
-.Mapsfoot{
-    padding-left: 15%;
-}
 
 .textofficefoot{
     font-size: 15px;
@@ -296,6 +294,7 @@ footer{
 .textcopyrightfoot{
     font-size: 12px;
 }
+
 
 
 @media screen and (max-width : 375px) {
@@ -405,5 +404,9 @@ footer{
 
     .footlist{
         margin-left: 20%;
+    }
+
+    .Mapsfoot{
+        padding-right: 30%;
     }
 }
