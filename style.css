@@ -74,12 +74,6 @@ h2 {
     margin-left: 3%;
 }
 
-.secvid {
-    margin-top: 1%;
-    margin-left: 4%;
-    padding-right: 20%;
-}
-
 .cardkeuntungan:hover{
     color: white;
     background-color: rgb(218, 37, 37);
@@ -119,6 +113,8 @@ h2 {
 
 .secvid {
     margin-right: 10rem;
+    margin-top: 1%;
+    margin-left: 4%;
 }
 
 
@@ -239,7 +235,9 @@ footer{
 }
 
 .secvid{
-    margin-right: 40%;
+    width: 100%;
+    justify-content: center;
+    padding-left: 10%;
 }
 
 }
@@ -248,20 +246,25 @@ footer{
 
     .carousel{
         padding-top: 17%;
-        margin-left: 12%;
-        width: 80%;
+        margin-right: 30%;
+        width: 90%;
+        justify-content: center;
     }
 
     .secvid {
         display: flex; 
         flex-wrap: wrap;
-        
+        padding-right: 20%;
         /*justify-content: center;
         align-items: center;
         margin-left: 43%
         */
     }
         
+    .areaprofile{
+        margin-top: 8%;
+    }
+
 
     .text-office {
         display: flex;
@@ -336,16 +339,8 @@ footer{
 @media screen and (max-width : 375px) {
 
     .carousel{
-        margin-top: 7%;
-        width: 80%;
-    }
-
-    .secvid {
-        display: flex; 
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        margin-left: 42%;
+        margin-top: 10%;
+        width: 90%;
     }
 
     .text-office {
@@ -415,6 +410,14 @@ footer{
 
 @media screen and (max-width : 320px) {
     
+    .carousel{
+        margin-top: 10%;
+    }
+
+    .areaprofile{
+        margin-top: 10%;
+    }
+
     .bgprofile{
         margin-left: 2rem;
         margin-right: 2rem;
@@ -430,14 +433,6 @@ footer{
 
     .card-keuntungan p{
         font-size: 15px;
-    }
-
-    .secvid {
-        display: flex; 
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        margin-left: 42%;
     }
 
     .footcontactinfo{
