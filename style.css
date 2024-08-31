@@ -77,6 +77,7 @@ h2 {
 .secvid {
     margin-top: 1%;
     margin-left: 4%;
+    padding-right: 20%;
 }
 
 .cardkeuntungan:hover{
@@ -218,14 +219,15 @@ footer{
         width: 80%;
     }
 
-    .secvid {
+   .secvid {
         display: flex; 
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        margin-left: 33%
+        margin-left: 43%
         
     }
+        
 
     .text-office {
         display: flex;
@@ -309,7 +311,7 @@ footer{
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        margin-left: 34%;
+        margin-left: 42%;
         
     }
 
@@ -409,4 +411,11 @@ footer{
     .Mapsfoot{
         padding-right: 30%;
     }
+}
+
+@media screen and (max-width : 237px){
+    .bgprofile{
+        font-size: 100%;
+    }    
+
 }
