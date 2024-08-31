@@ -243,10 +243,6 @@ footer{
         margin-left: 23%;
         margin-right: 23%;
     }
-
-    .contact{
-        margin-left: 25%;
-    }
 }
 
 
@@ -258,7 +254,7 @@ footer{
         width: 90%;
         justify-content: center;
     }
-
+/*
     .secvid {
         display: flex; 
         flex-wrap: wrap;
@@ -266,9 +262,9 @@ footer{
         /*justify-content: center;
         align-items: center;
         margin-left: 43%
-        */
-    }
         
+    }
+   */     
     .areaprofile{
         margin-top: 8%;
     }
@@ -293,6 +289,7 @@ footer{
         justify-content: center;
         align-items: center;
     }
+
     .footcontactinfo{
         margin-left: 5rem;
     }
