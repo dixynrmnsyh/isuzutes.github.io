@@ -3,8 +3,10 @@ html, body{
     overflow-x: hidden;
 }
 
+
 .navbar{
     width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .nav-item{
@@ -58,8 +60,9 @@ h2 {
 }
 
 
-.card-keuntungan {
+.card-keuntungan, .cardkeuntungan1 {
     margin-left: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .kartuproduk1 {
@@ -109,6 +112,35 @@ h2 {
     background-size: auto;
     margin-left: 1.8rem;
     margin-right: 1.6rem;
+}
+
+.wrapper {
+    text-align: center; /* Center-aligns child elements */
+    margin: 0 auto;
+}
+
+.title-box {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px auto;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 300px;
+}
+
+.videoyt {
+    width: 80%;
+    height: 450px; /* Sesuaikan tinggi sesuai kebutuhan */
+    margin: 0 auto 20px auto;
+    display: block;
+    max-width: 100%;
+    border: 5px solid red; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 
