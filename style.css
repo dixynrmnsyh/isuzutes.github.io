@@ -211,6 +211,39 @@ footer{
 
 }
 
+@media screen and (max-width : 768px){
+.bgprofile{
+    font-size: 130%;
+}
+
+.maps{
+    margin-left: 3%;
+}
+
+.card-keuntungan{
+    justify-content: center;
+}
+
+.kartuprodukall{
+    justify-content: center;
+}
+
+.kartuproduk1{
+    margin-right: 3%;
+}
+.kartuproduk3{
+    margin-right: 3%;
+}
+.kartuproduk5{
+    margin-right: 3%;
+}
+
+.secvid{
+    margin-right: 40%;
+}
+
+}
+
 @media screen and (max-width : 426px) {
 
     .carousel{
@@ -219,13 +252,14 @@ footer{
         width: 80%;
     }
 
-   .secvid {
+    .secvid {
         display: flex; 
         flex-wrap: wrap;
-        justify-content: center;
+        
+        /*justify-content: center;
         align-items: center;
         margin-left: 43%
-        
+        */
     }
         
 
@@ -312,7 +346,6 @@ footer{
         justify-content: center;
         align-items: center;
         margin-left: 42%;
-        
     }
 
     .text-office {
@@ -397,6 +430,14 @@ footer{
 
     .card-keuntungan p{
         font-size: 15px;
+    }
+
+    .secvid {
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 42%;
     }
 
     .footcontactinfo{
